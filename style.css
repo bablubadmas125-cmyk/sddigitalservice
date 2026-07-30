@@ -188,3 +188,42 @@ footer{
     text-decoration:none;
     font-weight:600;
 }
+.why-us{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+.why-us h2{
+    text-align:center;
+    font-size:40px;
+    color:#0d47a1;
+    margin-bottom:50px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.why-card{
+    background:#f8f9fc;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:0.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card h3{
+    margin-bottom:15px;
+    color:#0d47a1;
+}
+
+.why-card p{
+    line-height:1.6;
+}
