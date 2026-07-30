@@ -150,3 +150,41 @@ footer{
 .whatsapp-float:hover{
     transform:scale(1.1);
 }
+.contact{
+    padding:80px 8%;
+    background:#f8f9fc;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    color:#0d47a1;
+}
+
+.contact-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.contact-box div{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:center;
+    transition:.3s;
+}
+
+.contact-box div:hover{
+    transform:translateY(-8px);
+}
+
+.contact-box a{
+    color:#0d47a1;
+    text-decoration:none;
+    font-weight:600;
+}
