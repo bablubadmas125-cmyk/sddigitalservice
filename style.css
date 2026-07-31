@@ -570,9 +570,6 @@ nav ul li{
     gap:15px;
 }
 
-.logo img{
-    width:70px;
-}
 
 .logo-text h2{
     color:white;
@@ -599,6 +596,3 @@ nav ul li{
     transition:.3s;
 }
 
-.header nav a:hover{
-    color:#FFD54F;
-}
