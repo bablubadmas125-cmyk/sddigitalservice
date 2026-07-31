@@ -257,3 +257,38 @@ footer{
 .process-card:hover{
     transform:translateY(-8px);
 }
+.reviews{
+    padding:80px 8%;
+    background:white;
+}
+
+.reviews h2{
+    text-align:center;
+    color:#0d47a1;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.review-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.review-card{
+    background:#f8f9fc;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.review-card:hover{
+    transform:translateY(-8px);
+}
+
+.review-card h3{
+    margin:15px 0;
+    color:#0d47a1;
+}
