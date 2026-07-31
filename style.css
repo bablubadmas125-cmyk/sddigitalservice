@@ -15,12 +15,14 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:18px 8%;
-    background:rgba(13,71,161,.95);
-    backdrop-filter:blur(8px);
+    background:rgba(13,71,161,0.95);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
     color:white;
     position:sticky;
     top:0;
     z-index:1000;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
 }
 
 .logo{
@@ -45,7 +47,15 @@ nav ul li{
 nav ul li a{
     color:white;
     text-decoration:none;
-    font-weight:500;
+    font-weight:600;
+    padding:8px 12px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    background:white;
+    color:#0d47a1;
 }
 
 .hero{
