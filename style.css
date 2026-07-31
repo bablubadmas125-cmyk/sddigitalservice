@@ -115,14 +115,17 @@ nav ul li a:hover{
 
 .card{
     background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-    transition:.3s;
+    padding:35px 25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:0.3s;
+    border-top:5px solid #0d47a1;
 }
 
 .card:hover{
     transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
 
 footer{
@@ -510,4 +513,14 @@ nav ul li{
 
 .copyright{
     text-align:center;
+}
+.card h3{
+    color:#0d47a1;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
 }
