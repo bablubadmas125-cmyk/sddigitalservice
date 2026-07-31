@@ -546,3 +546,64 @@ nav ul li{
     color:#dbe8ff;
     margin-top:2px;
 }
+/* ===== Version 2 Header ===== */
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:rgba(10,45,110,.95);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+}
+
+.logo-text h2{
+    color:white;
+    font-size:30px;
+    margin:0;
+}
+
+.logo-text p{
+    color:#d6e4ff;
+    font-size:14px;
+    margin-top:4px;
+}
+
+.header nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.header nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.header nav a:hover{
+    color:#FFD54F;
+}
