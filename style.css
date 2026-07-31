@@ -363,3 +363,25 @@ footer{
     color:#FFD54F;
     margin-bottom:10px;
 }
+.call-float{
+    position:fixed;
+    bottom:95px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#0d47a1;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.call-float:hover{
+    transform:scale(1.1);
+    background:#1565c0;
+}
