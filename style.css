@@ -328,3 +328,38 @@ footer{
 .contact-form button:hover{
     background:#1565c0;
 }
+.stats{
+    padding:80px 8%;
+    background:#0d47a1;
+    color:white;
+}
+
+.stats h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.stat-card{
+    background:rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+}
+
+.stat-card h3{
+    font-size:40px;
+    color:#FFD54F;
+    margin-bottom:10px;
+}
