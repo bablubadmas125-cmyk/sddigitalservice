@@ -14,11 +14,13 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 8%;
-    background:#0d47a1;
+    padding:18px 8%;
+    background:rgba(13,71,161,.95);
+    backdrop-filter:blur(8px);
     color:white;
     position:sticky;
     top:0;
+    z-index:1000;
 }
 
 .logo{
@@ -47,13 +49,14 @@ nav ul li a{
 }
 
 .hero{
-    height:90vh;
+    min-height:90vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:20px;
-    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    padding:40px 20px;
+    background:linear-gradient(rgba(13,71,161,.85),rgba(13,71,161,.85)),
+               url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600") center/cover;
     color:white;
 }
 
@@ -68,12 +71,20 @@ nav ul li a{
 }
 
 .btn{
+    display:inline-block;
+    margin:10px;
     background:#ff9800;
     color:white;
     padding:15px 35px;
     text-decoration:none;
     border-radius:30px;
-    font-weight:bold;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+    transform:translateY(-3px);
 }
 
 .services{
