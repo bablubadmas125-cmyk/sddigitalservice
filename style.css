@@ -595,4 +595,34 @@ nav ul li{
     font-weight:600;
     transition:.3s;
 }
+/* ===== Mobile Navigation ===== */
 
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.navbar{
+    display:none;
+    width:100%;
+}
+
+.navbar.active{
+    display:block;
+}
+
+.navbar ul{
+    flex-direction:column;
+    text-align:center;
+    padding:20px 0;
+}
+
+.menu-toggle{
+    display:block;
+}
+
+}
