@@ -227,3 +227,33 @@ footer{
 .why-card p{
     line-height:1.6;
 }
+.process{
+    padding:80px 8%;
+    background:#eef5ff;
+}
+
+.process h2{
+    text-align:center;
+    font-size:40px;
+    color:#0d47a1;
+    margin-bottom:50px;
+}
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.process-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.process-card:hover{
+    transform:translateY(-8px);
+}
