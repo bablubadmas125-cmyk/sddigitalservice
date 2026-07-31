@@ -528,3 +528,14 @@ nav ul li{
     color:#555;
     line-height:1.6;
 }
+.why-us{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+.why-us h2{
+    text-align:center;
+    font-size:40px;
+    color:#0d47a1;
+    margin-bottom:50px;
+}
